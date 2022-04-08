@@ -58,7 +58,7 @@ declare namespace anchor {
   }
 
   export const permalink: {
-    headerLink: (opts: HeaderLinkPermalinkOptions) => PermalinkGenerator
+    headerLink: (opts?: HeaderLinkPermalinkOptions) => PermalinkGenerator
     linkAfterHeader: (opts: LinkAfterHeaderPermalinkOptions) => PermalinkGenerator
     linkInsideHeader: (opts: LinkInsideHeaderPermalinkOptions) => PermalinkGenerator
     ariaHidden: (opts: AriaHiddenPermalinkOptions) => PermalinkGenerator
