@@ -272,7 +272,7 @@ const anchor = require('markdown-it-anchor')
 const md = require('markdown-it')()
 
 md.use(anchor, {
-  permalink: anchor.permalink.headerLink()
+  permalink: anchor.permalink.headerLink({})
 })
 ```
 
